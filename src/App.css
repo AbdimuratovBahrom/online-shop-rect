@@ -1,0 +1,264 @@
+/* App.css */
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+* {
+  font-family: 'Rubik';
+}
+
+@font-face {
+  font-family:'Rubik';
+  src: url('./fonts/Rubik-Italic-VariableFont_wght.ttf');
+}
+
+
+@font-face {
+  font-family:'Rubik';
+  src: url('./fonts/Rubik-VariableFont_wght.ttf');
+}
+
+.f__sect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: white;
+}
+
+
+.CardText button {
+  padding: 15px;
+  font-weight: 00;
+  background-color: red;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 30px;
+}
+
+
+
+.CardText p {
+  font-size: 10px;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+.CardImg img {
+  border-radius: 20px
+}
+
+
+.Second__sect {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pou {
+  position: absolute;
+  z-index: 5;
+}
+
+
+.Watch {
+  margin-top: 10px;
+}
+
+.CardText {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.f__sect img {
+  height: 180px;
+}
+
+.App {
+  font-weight: 500;
+  max-width: 400px;
+  font-size: 22px;
+  width: 100%;
+  
+}
+.footer__ul li {
+  list-style: none;
+}
+
+.footer__ul li a {
+  color: #111;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  list-style: none;
+}
+
+
+.footer {
+  display: flex;
+  gap: 100px;
+  justify-content: start;
+  align-items: center;
+  margin-left: -50px;
+}
+
+.footSpan {
+  color: red;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.CardImages1 {
+width: 80px;
+}
+
+
+.CardImages2 {
+  width: 80px;
+  }
+  .CardImages3 {
+    
+  width: 80px;
+  }
+  .CardImages4 {
+  width: 80px;
+  }
+  .CardImages5 {
+  width: 80px;
+  
+  margin-top: -70px;
+  }
+  .CardImages6 {
+  width: 80px;
+  margin-left: 80px;
+  }
+.footerRightBox {
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+}
+
+.footerLeftBox {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputBefore {
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid slategrey;
+  color: slategrey;
+}
+
+.inputAfter {
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid slategrey;
+  color: slategrey;
+}
+
+
+.AppImg1 {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.MarketPlace h1 {
+  font-weight: 500;
+  font-size: 40px;
+  font-family: 'Rubik';
+  color: rgb(99, 99, 99);
+}
+
+.MarketPlace p {
+  font-weight: 0;
+  font-size: 17px;
+  font-family: 'Rubik';
+  color: rgb(76, 82, 75); 
+}
+
+
+.InputBox {
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.btn__crd {
+  padding: 10px;
+  background: none;
+  border: 1px solid rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+  border-radius: 20px;
+}
+
+.credits {
+  padding: 5px;
+  font-size: 15px;
+  background-color: rgb(251, 255, 0);
+  border-radius: 20px;
+  width: 150px;
+  text-align: center;
+  font-weight: 0;
+  color: rgb(254, 156, 0)
+}
+
+.price {
+  font-weight: 0;
+  font-size: 20px;
+  font-family: 'Rubik';
+
+}
+
+
+.btn__crd {
+  cursor: pointer;
+}
+
+.btn__crd:hover {
+background-color: red;
+color: white;
+transition: all 0.7s;
+}
+
+.tittle {
+  font-family: 'Rubik';
+  font-size: 20px;
+  font: 100;
+  color: rgb(99, 99, 99);
+}
+
+
+
+.cardbutton {
+  background: none;
+  border: none;
+}
+
+
+.logoHeader {
+  position: absolute;
+  z-index: 15;
+  top: 0px;
+  left: 2.5%;
+  width: 100px;
+}
